@@ -1,15 +1,60 @@
-# Web Scraping and NLP with Requests, BeautifulSoup, and spaCy
+Web Scraping and NLP Project
 
-Complete the tasks in the Python Notebook in this repository.
-Make sure to add and push the pkl or text file of your scraped html (this is specified in the notebook)
+Description
 
-## Rubric
+This project showcases techniques in web scraping and natural language processing (NLP) using Python. It includes:
 
-* (Question 1) Article html stored in separate file that is committed and pushed: 1 pt
-* (Question 2) Article text is correct: 1 pt
-* (Question 3) Correct (or equivalent in the case of multiple tokens with same frequency) tokens printed: 1 pt
-* (Question 4) Correct (or equivalent in the case of multiple lemmas with same frequency) lemmas printed: 1 pt
-* (Question 5) Correct scores for first sentence printed: 2 pts (1 / function)
-* (Question 6) Histogram shown with appropriate labelling: 1 pt
-* (Question 7) Histogram shown with appropriate labelling: 1 pt
-* (Question 8) Thoughtful answer provided: 1 pt
+Token and lemma frequency analysis
+Sentence scoring
+Data visualization through histograms
+Utilization of libraries like spaCy, matplotlib, BeautifulSoup, and more
+The project demonstrates the application of NLP concepts for text analysis and provides reproducible steps for similar data extraction tasks.
+
+Usage
+
+To use this repository, follow the steps below:
+
+Clone the Repository:
+git clone https://github.com/brandonjbbb/NovemberWebScrape.git
+Install the Required Dependencies:
+Ensure you have Python installed (preferably Python 3.8 or higher).
+Use the following command to install dependencies:
+pip install -r requirements.txt
+(You may need to manually install libraries like spaCy, matplotlib, BeautifulSoup, and others if requirements.txt is not provided.)
+Run the Notebooks:
+Open Jupyter Notebook:
+jupyter notebook
+Navigate to the .ipynb files and execute the code cells.
+HTML Files:
+For a quick review, the HTML exports of the executed notebooks are available in the repository.
+Files
+
+The repository includes the following key files:
+
+File Name	Description
+notebook_name.ipynb	Jupyter Notebook containing the full implementation and results.
+notebook_name.html	Exported HTML version of the notebook for easy viewing without execution.
+README.md	Documentation about the project, its structure, and usage instructions.
+Technologies Used
+
+Python Libraries:
+spaCy
+BeautifulSoup
+matplotlib
+pickle
+requests
+Tools:
+Jupyter Notebook
+Git and GitHub
+HTML for rendering exported files
+Contact
+
+For questions, feedback, or collaboration opportunities, feel free to reach out:
+
+Name: Brandon
+Email: S576001@nwmissouri.edu
+GitHub Profile: brandonjbbb
+Acknowledgments
+
+Special thanks to contributors, professors, and colleagues for their guidance and support during this project.
+
